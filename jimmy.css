@@ -1,0 +1,389 @@
+.nev{
+            
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0c3c60;
+    position: fixed;
+    z-index: 100000000000;
+    top: 0;
+
+
+}
+.logo{
+    
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 50px;}
+.content{
+    
+    width:70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    
+
+}
+ul,li{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-user{
+    margin-right: 10px;
+}
+.fa-bars{
+    visibility: hidden;
+    color: white;
+    font-size:;
+}
+@media (max-width:1005px){
+    li{
+        display: none;
+
+    }
+    .fa-bars{
+        visibility: visible;
+    }
+    .content{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+
+.box {
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: last baseline;
+    background-image: url(../../landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    width:40%;
+    height:auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.btn {
+    padding: 10px;
+    width: 150px;
+    color:white;
+    background-color:darkslategray;
+    transition-timing-function: ease-in-out;
+    transition-duration:1s;
+    border: 1px solid darkslategray;
+    font-size: 15px;
+
+}
+
+.btn:hover {
+    color: darkslategray;
+    background-color: white;
+}
+
+.main {
+    max-width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.main1 {
+    width:30%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main2 {
+    width:30%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main3 {
+    width:30%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.ab {
+    margin-top: 20px;
+}
+
+.jim {
+    max-width: 100%;
+    height:auto;
+    background-image: url(../../landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal.jpg);
+    background-size: cover;
+    
+    
+    
+}
+.jim2{
+    width: 100%;
+    height:auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+    text-wrap: wrap;
+
+    
+}
+.jim3{width:50%;
+    height:auto;
+    text-align: center;
+    
+}
+.hh{
+    margin-top: 10px;
+}
+.sec{
+    max-width: 100%;
+    height:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+        }
+.sec1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec2{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+.sec3{
+    width:20%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.sec4{
+    width:20%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.sec5{
+    width:20%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.sec6{
+    width:20%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.image{
+    object-fit:contain;
+}
+.test{
+    height:auto;
+    max-width:100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.test1{
+    height:auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    
+
+}
+.test2{
+    height:auto;
+    width: 20%;
+    text-align: center;
+    text-align: justify;
+    text-align-last: justify;
+    padding-top: 50px;
+    padding-bottom:30px;
+
+
+
+    
+}
+.test3{
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:30px;
+}
+   /* from */
+
+.form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    width: 100%;
+    background-color: #0c3c60;
+    display: flex;
+    justify-content: center;
+}
+.small-box{
+    width: 50%;
+    height: auto;
+   
+}
+.upper{
+   display: flex;
+   flex-wrap: wrap;
+}
+.left{
+    padding: 10px;
+    height: auto;
+    width: 300px;
+    flex-grow: 2;
+   
+}
+.right{
+    padding: 10px;
+    height: auto;
+    width: 300px;
+    flex-grow: 2;
+    
+}
+.lower{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.message{
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    flex-grow: 3;
+}
+.buttons{
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    
+
+}
+label{
+    color: white;
+}
+input{
+    background-color: #0c3c60;
+    width: 95%;
+    margin-top: 10px;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+
+  /* footer */
+.footer{
+    height:auto;
+    width: 100%;
+    background-color:#0c3c60;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.foot1{
+    height: auto;
+    width: 25%;
+    line-height: 30px;}
+    
+    
+
+.foot1{
+    height: auto;
+    width: 25%;
+    line-height: 30px;}
+.pqr{
+    color: white;
+    flex-direction: column;
+    margin: 10px;
+    font-size:18px;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+}
+
+    
+
+
