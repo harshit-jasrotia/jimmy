@@ -1,7 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .nev{
-            
+      height:auto;      
     width: 100%;
     display: flex;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     background-color:#0c3c60;
@@ -19,6 +24,13 @@
     align-items: center;
     color: white;
     margin-right: 50px;}
+
+    @media (max-width:900px)
+    {
+        .logo{
+            width:100%
+        }
+    }
 .content{
     
     width:70%;
@@ -49,21 +61,23 @@ h1{
 .fa-bars{
     visibility: hidden;
     color: white;
-    font-size:;
 }
-@media (max-width:1005px){
-    li{
+@media (max-width:1000px){
+    .def{
         display: none;
 
     }
     .fa-bars{
         visibility: visible;
+        margin-right: 20px;
+        
     }
     .content{
-        display: flex;
         justify-content: flex-end;
+    
     }
-
+    
+    
 }
 
 
@@ -81,6 +95,9 @@ h1{
     background-repeat: no-repeat;
 }
 
+    
+
+
 .box1 {
     width:40%;
     height:auto;
@@ -89,6 +106,11 @@ h1{
     padding: 20px;
     border: 0;
 }
+@media (max-width:800px){
+    .box1{
+        width: 100%;}
+    
+    }
 
 h2 {
     font-size: 50px;
@@ -145,10 +167,23 @@ h2 {
     padding: 20px;
     text-align: center;
 }
+@media(max-width:850px)
+ {
+    .main1{
+        width: 60%;
+        flex-direction: column;}
+    
+    .main2{
+        width: 60%;
+        flex-direction: column;}
+    
+    .main3{
+        width: 60%;
+        flex-direction: column;}
+    }
+    .ab {
+    margin-top: 20px;}
 
-.ab {
-    margin-top: 20px;
-}
 
 .jim {
     max-width: 100%;
@@ -181,6 +216,7 @@ h2 {
 .hh{
     margin-top: 10px;
 }
+/*our client*/
 .sec{
     max-width: 100%;
     height:auto;
@@ -203,20 +239,37 @@ h2 {
     padding-bottom: 100px;
     flex-wrap: wrap;
 }
+@media (max-width:850px){
+    .sec2{
+        flex-direction: column;
+    }
+
+}
+
 .sec3{
     width:20%;
     height:auto;
     display: flex;
-    justify-content: center;
-    
-    
-}
-.sec4{
+    justify-content: center;}
+
+    @media(max-width:850px){
+        .sec3{
+            width: 100%;
+        }
+    }
+
+
+    .sec4{
     width:20%;
     height:auto;
     display: flex;
     justify-content: center;
     
+}
+@media(max-width:850px){
+    .sec4{
+        width: 100%;
+    }
 }
 .sec5{
     width:20%;
@@ -225,12 +278,23 @@ h2 {
     justify-content: center;
     
 }
+@media(max-width:850px){
+    .sec5{
+        width: 100%;
+    }
+}
 .sec6{
     width:20%;
     height:auto;
     display: flex;
     justify-content: center;
     
+}
+@media (max-width:850px){
+    .sec6{
+        width: 100%;
+
+    }
 }
 .image{
     object-fit:contain;
@@ -257,17 +321,23 @@ h2 {
 }
 .test2{
     height:auto;
-    width: 20%;
+    width: 30%;
     text-align: center;
     text-align: justify;
     text-align-last: justify;
     padding-top: 50px;
-    padding-bottom:30px;
+    padding-bottom:30px;}
+
+    @media (max-width-850px){
+        .test2{
+            width: 80%;
+        }
+    }
 
 
 
     
-}
+
 .test3{
     height: auto;
     text-align: center;
@@ -354,17 +424,20 @@ input{
 .footer{
     height:auto;
     width: 100%;
-    background-color:#0c3c60;
+    background-color: #0c3c60;
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
-}
-.foot1{
-    height: auto;
-    width: 25%;
-    line-height: 30px;}
+    padding-bottom: 50px;}
+
+    @media (max-width:600px)
+    {
+        .footer{
+            flex-direction: column;
+        }
+    }
+
+
     
     
 
@@ -372,6 +445,38 @@ input{
     height: auto;
     width: 25%;
     line-height: 30px;}
+
+      @media (max-width:600px)
+      {
+        .foot1{
+            width: 100%;
+        }
+      }
+    
+    
+
+.foot2{
+    height: auto;
+    width: 25%;
+    line-height: 30px;}
+
+      @media (max-width:600px){
+        .foot2{
+            width: 100%;
+        }
+      }
+    .foot3{
+        height: auto;
+        width: 25%;
+        line-height: 30px;
+    text-align: center;}
+
+    @media (max-width:600px){
+        .foot3{
+            width: 100%;
+        }
+    }
+
 .pqr{
     color: white;
     flex-direction: column;
@@ -381,7 +486,7 @@ input{
 .fa-brands{
     color: white;
     font-size: 30px;
-    margin: 5px;
+    margin:20px;
 }
 
     
